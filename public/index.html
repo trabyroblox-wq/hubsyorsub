@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SUB v1 • Free Anonymous Web Proxy</title>
+  <meta name="description" content="Fast, secure, no-logs web proxy to unblock any site."/>
+  <link rel="stylesheet" href="assets/styles/main.css"/>
+  <link rel="icon" href="favicon.ico"/>
+</head>
+<body>
+  <div class="hero">
+    <div class="container">
+      <h1 class="logo">SUB <span>v1</span></h1>
+      <p class="tagline">Fast • Private • No Logs • Unblock Everything</p>
+
+      <div class="search-container">
+        <input type="text" id="urlInput" placeholder="https://youtube.com or just type the site" autocomplete="off"/>
+        <button id="goBtn">GO →</button>
+      </div>
+
+      <div class="quick-sites">
+        <button data-url="https://www.youtube.com">YouTube</button>
+        <button data-url="https://twitter.com">X / Twitter</button>
+        <button data-url="https://www.reddit.com">Reddit</button>
+        <button data-url="https://www.tiktok.com">TikTok</button>
+        <button data-url="https://www.instagram.com">Instagram</button>
+      </div>
+
+      <div class="features" id="features"></div>
+
+      <footer>
+        <p>SUB v1 • Free Web Proxy • <a href="https://github.com/yourusername/sub-v1-web-proxy">GitHub</a></p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/proxy.js"></script>
+</body>
+</html>
