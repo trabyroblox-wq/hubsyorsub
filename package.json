@@ -1,1 +1,16 @@
-
+{
+  "name": "sub-v1-web-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern anonymous web proxy frontend – SUB v1",
+  "scripts": {
+    "start": "npx serve public -p 3000",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1",
+    "prettier": "^3.3.3",
+    "serve": "^14.2.3"
+  }
+}
